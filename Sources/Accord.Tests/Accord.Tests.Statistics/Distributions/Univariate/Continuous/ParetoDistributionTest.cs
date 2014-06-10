@@ -152,6 +152,5 @@ namespace Accord.Tests.Statistics
             Assert.AreEqual(7.12, target.Mode, 1e-6);
             Assert.AreEqual(2.0, -target.Mean / (target.Mode - target.Mean), 1e-2);
         }
-
     }
 }
